@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moments</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/def20d6016.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-home">
+    <%- include("partials/header.ejs", { user }) %>
+    <main>
+        <div class="welcome-container" style="background-color: rgba(24, 24, 24, 0.8)">
+            <h2><i class="fa-solid fa-heart"></i></h2>
+            <p><b>Share your favorite moments with other people!</b></p>
+            <a type="button" class="btn btn-info" href=""><i class="fa-brands fa-discord"></i> Login with Discord</a>
+        </div>
+    </main>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>
