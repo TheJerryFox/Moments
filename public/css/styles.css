@@ -9,8 +9,25 @@ body {
 /* Backgrounds */
 
 .bg-home {
-    background-image: url("../images/home.png");
-    background-size: cover;
+    /* background-image: url("../images/home.png");
+    background-size: cover; */
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(60deg, #0909a8, #4444ee, #ef93fc, #ff6078, #c2213c);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Buttons */

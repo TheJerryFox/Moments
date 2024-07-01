@@ -1,0 +1,14 @@
+{
+    "database": {
+        "url": "mongodb://localhost:27017",
+        "name": "vrealitynexus"
+    },
+
+    "discord": {
+        "webapp": {
+            "id": "1257063632756281374",
+            "redirect_uri": "http://localhost:3000/authorize/discord/callback"
+        }
+    }
+
+}

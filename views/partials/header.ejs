@@ -1,10 +1,8 @@
 <header class="blackgradient">
     <div class="container">
-        <h1>Moments</h1>
-        <% if (user) { %>
-            <p><b><%= user.username %></b></p>
-        <% } else { %>
-            <a type="button" class="btn btn-info" href=""><i class="fa-brands fa-discord"></i> Login with Discord</a>
+        <h1>VRealityNexus</h1>
+        <% if (!user) { %>
+            <a type="button" class="btn btn-info" href="/authorize/discord"><i class="fa-brands fa-discord"></i> Login with Discord</a>
         <% } %>
     </div>
 </header>
